@@ -5,6 +5,7 @@ A Staff Management plugin
 
 ## KNOWN BUGS
 * Remove Warning Command crash
+* (GH) i didnt add the virions so it wont start so the zip wont start.
 
 ## TODO
 - [ ] Fix Remove Warning Command
