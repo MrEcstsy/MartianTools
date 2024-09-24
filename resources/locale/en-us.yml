@@ -1,0 +1,22 @@
+# en-us Language File (Default)
+# (!) DO NOT CHANGE (!)
+version: 1
+
+# Prefix for all messages
+prefix: "&8[&5MartianTools&8] "
+
+# Message when the player is not found
+not-found: "{prefix}&r&cPlayer &f{player}&c not found!"
+
+# Warnings related messages
+warnings:
+  header: "&8=====&5 Warnings for &f{player} &8({current_page}&7/&8{total_pages}) &8====="
+  entry: "&8[&5#{id}&8] &f{reason} &a({timestamp})"
+  no-warnings: "&f{player} &5has no warnings!"
+  pagination-hint: "&o&8Type &f/warnings {player} {next_page} &8to view more."
+  per-page: 5 # The amount of warnings shown per page
+
+# Warn related messages
+warn:
+  warned: "{prefix}&eYou have successfully warned &a{player}&e!"
+  notify: "{prefix}&cYou have been warned for &f{reason}&c!"

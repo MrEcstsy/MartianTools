@@ -1,0 +1,25 @@
+name: MartianTools
+main: ecstsy\MartianTools\Loader
+api: 5.3.0
+version: 1.0.0
+author: ecstsy
+permissions:
+
+  martiantools.default:
+    default: true
+    description: "Default permission for MartianTools"
+  martiantools.command.warnings:
+    default: op
+    description: "Gives access to /warnings command."
+  martiantools.command.warn:
+    default: op
+    description: "Gives access to /warn command."
+  martiantools.command.warn.info:
+    default: true
+    description: "Gives access to /warn info command."
+  martiantools.command.warn.remove:
+    default: op
+    description: "Gives access to /warn remove command."
+  martiantools.command.warn.list:
+    default: true
+    description: "Gives access to /warn list command."
